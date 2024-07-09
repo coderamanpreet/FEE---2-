@@ -1,9 +1,15 @@
 body{
- 
+ background-image: url(Chitkara_University_pic.jpg);
+ background-repeat: no-repeat; 
+ width: 100%;
+ background-size: cover ;
+
 
 }
 
 .img{
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
     
 }
@@ -25,6 +31,15 @@ body{
    display:flex;
    align-items: flex-start;
    flex-direction: column;
-   margin-left: 45%;
+   margin-left: 10%;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
+.main {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    margin-left: 60% ;
+    margin-top: 5%;
+    padding-bottom: 5px;
+}

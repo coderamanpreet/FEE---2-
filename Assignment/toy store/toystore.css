@@ -66,7 +66,7 @@ nav ul{
     font-size: 2.5rem;
     
 }
-button{
+#hello{
     background-color:  rgb(165, 201, 38);
     border: none;
     align-items: center;
@@ -116,7 +116,7 @@ button{
 
 }
 #teddy{
-   
+    margin: none;
     height: 250px;
     width: 250px;
     display: inline-block;
@@ -131,8 +131,59 @@ button{
     position: absolute;
 }
 
-#stuffed{
+#button1{
+    background-color: white;
+    color: rgb(46, 40, 40);
+    border: none;
+    align-items: center;
+    padding: 11px 5px;
+    width: 110px;
+    height: 40px;
+    /* padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 100px;
+    padding-right: 7px; */
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    
+}
 
+.animals{
+    margin-top: 500px;
+    margin-left: 10%;
+    font-size: 2rem;
+    font-family: sans-serif;
+    padding-right: 100px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 80px;
+}
+
+.pic1{
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+.a1{
+  background-color: white;
+  box-shadow: 50px;
+  display: inline-block;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px;
+  border: 1px solid black;
+}
+
+#stuffed{
+    
 }
 
 
@@ -141,7 +192,7 @@ button{
         flex-direction: column;
         align-items: center;
     }
-    two{
+    .two{
         align-items: center;
         
     }
